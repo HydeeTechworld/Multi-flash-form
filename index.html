@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Hydee TechWorld">
+<link rel="stylesheet" href="style.css">
+  <title>Multi flash form</title>
+</head>
+<body>
+<h1>MULTI FLASH <br>FORM</h1>
+<div class="home">
+<button id="btn1">LOGIN</button><br>
+<button id="btn2">REGISTER</button>
+</div>
+<br>
+<div class="openBtn1">
+<form>
+  <h2>LOGIN</h2>
+<form action="dashboard.php" method="post">
+  <label for="email">Email:</label><br>
+<input type="email" id="email" name="email" placeholder="Enter email address" required><br>
+  <label for="password">Password:</label><br>
+<input type="password" id="password" name="password" placeholder="Enter password" required>
+  <h4><a href="recover.html" style="color:red">Forgot password?</a></h4>
+<br>
+<button id="btn3">LOGIN</button>
+  </form>
+  </form>
+  <button id="btn4">CANCEL</button>
+</div>
+<br>
+<div class="openBtn2">
+<form>
+  <h2>REGISTER</h2>
+<form action="login.html" method="post">
+  <label for="fullname">Full name:</label><br>
+<input type="text" class="fullname" name="fullname" placeholder="Enter your full name" required><br>
+  <label for="email">Email:</label><br>
+<input type="email" class="email" name="email" placeholder="Enter your email address" required><br>
+  <label for="password">Password:</label><br>
+<input type="password" class="password" name="password" placeholder="Enter your password" required>
+
+  <button type="submit" id="btn5">REGISTER</button></form>
+</form>
+  <button id="btn6">CANCEL</button>
+</div>
+<script src="script.js"></script>
+  </body>
+</html>
